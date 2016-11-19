@@ -1,6 +1,7 @@
 # generator-es6
 
-minimal yeoman generator for my personal ES6 projects
+minimal yeoman generator for my personal ES6 projects.
+Stack: ES6, React, Babel, Browserify, Babelify
 
 __INSTRUCTIONS__
 
