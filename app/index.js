@@ -35,7 +35,9 @@ module.exports = generators.Base.extend({
       }
   },
   end: {
-
+      dependenciesInstalled: function(){
+          this.spawnCommand('mkdir', ['dist']);
+      }
   }
 
 });
