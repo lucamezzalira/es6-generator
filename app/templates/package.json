@@ -1,15 +1,14 @@
 {
-  "name": "wp-test",
+  "name": "<%= name %>",
   "version": "1.0.0",
   "description": "",
   "main": "src/App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/webpack && npm run server",
-    "server": "./node_modules/.bin/webpack-dev-server --open --compress",
-    "build": "browserify ./src/App.js -o ./dist/App.js -t [ babelify ] && cp index.html dist/index.html"
+    "server": "./node_modules/.bin/webpack-dev-server --open --compress"
   },
-  "author": "",
+  "author": "luca mezzalira",
   "license": "ISC",
   "dependencies": {
     "core-decorators": "latest",
