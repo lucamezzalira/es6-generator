@@ -31,6 +31,14 @@ module.exports = generators.Base.extend({
           this.fs.copy(
               this.templatePath('src/App.js'),
               this.destinationPath('src/App.js')
+          );
+          this.fs.copy(
+              this.templatePath('webpack.config.js'),
+              this.destinationPath('webpack.config.js')
+          );
+          this.fs.copy(
+              this.templatePath('.babelrc'),
+              this.destinationPath('.babelrc')
           )
       }
   },
