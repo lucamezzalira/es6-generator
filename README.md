@@ -1,7 +1,7 @@
 # generator-es6
 
 minimal yeoman generator for my personal ES6 projects.
-Stack: ES6, React, Babel, Webpack, UglifyJSPlugin, HTMLWebpackPlugin, Webpack-dev-server     
+Stack: ES6, React, Babel, Webpack, UglifyJSPlugin, CopyWebpackPlugin, Webpack-dev-server     
 
 
 __INSTRUCTIONS__
