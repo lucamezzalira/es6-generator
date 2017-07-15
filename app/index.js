@@ -7,6 +7,7 @@ module.exports = generators.Base.extend({
     this.argument('appname', { type: String, required: true });
     this.installDependencies({
         npm: true,
+        bower: false,
         callback: function () {
             console.log('Project ready!');
         }
