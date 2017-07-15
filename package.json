@@ -1,7 +1,7 @@
 {
   "name": "generator-es6",
   "version": "1.1.0",
-  "description": "minimal es6 yeoman generator for my personal projects",
+  "description": "minimal es6 + React yeoman generator for my personal projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,17 +9,8 @@
   "files": [
     "app"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucamezzalira/es6-scaffolding.git"
-  },
   "author": "Luca Mezzalira",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lucamezzalira/es6-scaffolding/issues"
-  },
-  "homepage": "https://github.com/lucamezzalira/es6-scaffolding#readme",
-  "keywords": ["yeoman-generator"],
   "dependencies": {
     "yeoman-generator": "^0.24.1"
   }
